@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: serif;
+    font-family: 'Playfair Display',serif;
     background-color: #050505;
     color: white;
 }
@@ -27,7 +27,7 @@ nav a{
 .hero {
     height: 500px;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
-                url("https://picsum.photos/1200/800");
+                url("https://images.unsplash.com/photo-1519671482749-fd09be7ccebf")center/cover;
     background-size: cover;
     text-align: center;
     padding-top: 160px;
@@ -51,13 +51,13 @@ nav a{
     font-weight: bold;
 }
 .button:hover {
-    background-color: red;
+    background-color: #b30000;
     color: white;
     transform: scale(1.05);
     transition: 0.3s;
 }
 .section{
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
 .section h2{
@@ -90,7 +90,7 @@ nav a{
 }
 .cast-card:hover{
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
 }
 .cast-photo{
     width: 100%;
